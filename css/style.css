@@ -476,7 +476,7 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     .welcome-title {
         font-size: 30px;
     }
@@ -1272,6 +1272,12 @@ padding: 0 10px 0 20px;
         max-height: 497px;
         margin: 25px 10px;
 
+    }
+}
+
+@media (max-width: 330px) {
+    .sponsors-title {
+        font-size: 50px;
     }
 }
 
