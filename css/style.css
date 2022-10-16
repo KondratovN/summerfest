@@ -259,7 +259,7 @@ body {
 }
 
 .moskow {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     color: white;
     font-size: 85px;
     line-height: 90px;
@@ -297,7 +297,7 @@ body {
     font-size: 20px;
     position: absolute;
     top: 5px;
-    right: 25px;
+    right: 20px;
 }
 
 .learn-more:hover {
@@ -353,7 +353,7 @@ body {
 .info-title {
     color: white;
     font-size: 24px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     padding: 0 0 10px 0;
 }
 
@@ -365,6 +365,7 @@ body {
 @media (max-width: 770px) {
     .info-container {
         flex-direction: column;
+        padding: 0px 20px 0;
     }
 
     .info-block img {
@@ -378,6 +379,10 @@ body {
     }
     .info-block:first-child {
         margin: 40px 0;
+    }
+
+    .learn-more {
+        margin: 80px 5px 0px 0;
     }
 }
 
@@ -407,7 +412,7 @@ body {
 .welcome-title {
     color: white;
     font-size: 55px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     margin: 0 0 30px 0;
     letter-spacing: 2px;
 }
@@ -494,7 +499,7 @@ body {
     color: white;
     font-size: 60px;
     line-height: 1.2;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -633,7 +638,7 @@ body {
 
 .title-two {
     text-align: center;
-    padding: 10px 15px 40px 15px;
+    padding: 10px 15px 0px 15px;
     background: rgb(21, 24, 29);
 }
 
@@ -646,7 +651,7 @@ body {
     color: white;
     font-size: 60px;
     line-height: 1.2;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -716,7 +721,6 @@ body {
     color: rgba(255,255,255,0.65);
     font-size: 16px;
     line-height: 1.6;
-    font-family: Lato,sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
@@ -744,6 +748,10 @@ body {
 
 @media (max-width: 767px) {
 
+    .price-container {
+        padding: 0px 15px 100px 15px;
+    }
+    
     .price-img img {
         width: 75%;
         flex-basis: 40%;
@@ -784,7 +792,7 @@ body {
     color: white;
     font-size: 60px;
     line-height: 1.2;
-    font-family: Abril Fatface,cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -798,7 +806,6 @@ body {
     color: rgb(169,191,211);
     font-size: 18px;
     line-height: 1.6;
-    font-family: Lato,sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
@@ -813,7 +820,6 @@ body {
     color: white;
     font-size: 16px;
     line-height: 1.6;
-    font-family: Lato,sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
@@ -930,7 +936,7 @@ padding: 0 10px 0 20px;
 }
 
 .quote-text {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     color: white;
     font-size: 40px;
     line-height: 1.5;
@@ -1016,7 +1022,7 @@ padding: 0 10px 0 20px;
     color: white;
     font-size: 60px;
     line-height: 1.2;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -1161,7 +1167,7 @@ padding: 0 10px 0 20px;
 /*--------SPONSORS----------------------------------------------------------------------------------*/ 
 
 .sponsors {
-    padding: 100px 15px 300px 15px;
+    padding: 100px 15px 100px 15px;
     background: linear-gradient(to bottom, rgb(36, 19, 67) 1%, transparent), url('../img/bc-tree.png') no-repeat;
     background-size: cover;
     background-position: center;
@@ -1181,7 +1187,7 @@ padding: 0 10px 0 20px;
     font-size: 60px;
     color: white;
     line-height: 1.2;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -1273,7 +1279,7 @@ padding: 0 10px 0 20px;
 
 .map {
     background: rgb(22, 23, 31);
-    padding: 100px 0 100px 0;
+    padding: 0px 0 100px 0;
 }
 
 .map-container {
@@ -1295,7 +1301,7 @@ padding: 0 10px 0 20px;
 .map-title {
     color: white;
     font-size: 60px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     line-height: 1.2;
     font-weight: 400;
     font-style: normal;
@@ -1323,7 +1329,7 @@ padding: 0 10px 0 20px;
 .map-adres-title {
     font-size: 24px;
     line-height: 1.4;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
@@ -1336,7 +1342,7 @@ padding: 0 10px 0 20px;
 .map-tel-title {
     font-size: 24px;
     line-height: 1.4;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
